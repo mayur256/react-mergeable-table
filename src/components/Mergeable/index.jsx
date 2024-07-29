@@ -2,17 +2,14 @@
 import React from "react";
 
 // Context
-import { useMergeableCtx } from "../../context/useMergeableCtx";
+// import { useMergeableCtx } from "../../context/useMergeableCtx";
 
 // Constituent components
-import { JsonToHtmlTable } from "./JsonToHtmlTable";
+import { JsonToHtmlTable } from "../JsonToHtmlTable";
 
 // Utils
-import { NATIVE_ELEMENTS } from "../../utils/Constants";
+// import { NATIVE_ELEMENTS } from "../../utils/Constants";
 import { removeHighlight } from "../../utils/Common";
-
-// Utils
-import { BrixEnums } from "com.brixip.iasys.util.library";
 
 // prop-types helper lib
 import PropTypes from "prop-types";

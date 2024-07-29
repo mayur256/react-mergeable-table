@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Mergeable } from "./components/Mergeable"
+import { MergeableCtxProvider } from "./context/useMergeableCtx"
+import { layout } from "./utils/data"
 
 function App() {
   return (
-    <div>Test app</div>
+    <MergeableCtxProvider>
+      <Mergeable layout={layout} />
+    </MergeableCtxProvider>
   )
 }
 
