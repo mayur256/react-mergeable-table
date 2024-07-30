@@ -5,7 +5,7 @@ import { layout } from "./utils/data"
 function App() {
   return (
     <MergeableCtxProvider>
-      <div className="mergeable">
+      <div className="mergeable d-flex">
         <Mergeable layout={layout} />
       </div>
     </MergeableCtxProvider>
