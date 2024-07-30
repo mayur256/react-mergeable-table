@@ -1,23 +1,11 @@
 .mergeable table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0px;
+  min-height: 100px;
+  border-spacing: 2px;
 }
 
 .mergeable .report-builder-table td {
-  width: var(--cell-width);
-  padding: 0.2rem;
-  height: var(--cell-height);
-  border: var(--empty-border);
-}
-
-.mergeable .report-builder-table tr:not(:last-child) td {
-  border-bottom: 0;
-}
-
-.mergeable .report-builder-table tr:not(:last-child) td:not([data-param-key]) {
-  border: 0;
-  border-bottom: 1px solid #fff;
+  padding: 0.5rem;
+  border: 1px solid;
 }
 
 .bg-td-selected {

@@ -5,7 +5,9 @@ import { layout } from "./utils/data"
 function App() {
   return (
     <MergeableCtxProvider>
-      <Mergeable layout={layout} />
+      <div className="mergeable">
+        <Mergeable layout={layout} />
+      </div>
     </MergeableCtxProvider>
   )
 }

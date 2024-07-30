@@ -72,7 +72,7 @@ export function JsonToHtmlTable({
                                 {...(cell.attributes ?? {})}
                                 data-element-key={cell.elementKey ?? ''}
                             >
-                                {cell.name}
+                                {cell.cellName}
                             </td>
                         );
                     });

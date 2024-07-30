@@ -5,6 +5,29 @@ export const layout = {
                 {
                     "td": [
                         {
+                            "cellName": "Level 1",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                },
+                                rowSpan: 10
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem",
+                                }
+                            }
+                        },
+                        {
                             "cellName": "",
                             "cellType": "",
                             "attributes": {
@@ -18,6 +41,71 @@ export const layout = {
                         {
                             "cellName": "",
                             "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                    ]
+                },
+                {
+                    "td": [
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": false,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "Poppins",
+                                    display: "none"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Level 2",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "Poppins"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "Poppins"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
                             "attributes": {
                                 "style": {
                                     "color": "black",
@@ -44,12 +132,13 @@ export const layout = {
                         {
                             "cellName": "",
                             "cellType": "",
-                            "isVisible": true,
+                            "isVisible": false,
                             "attributes": {
                                 "style": {
                                     "color": "black",
                                     "fontSize": "0.7rem",
-                                    "fontFamily": "Poppins"
+                                    "fontFamily": "0.7rem",
+                                    "display": "none"
                                 }
                             }
                         },
@@ -61,7 +150,19 @@ export const layout = {
                                 "style": {
                                     "color": "black",
                                     "fontSize": "0.7rem",
-                                    "fontFamily": "Poppins"
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Level 3",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
                                 }
                             }
                         },
@@ -73,7 +174,18 @@ export const layout = {
                                 "style": {
                                     "color": "black",
                                     "fontSize": "0.7rem",
-                                    "fontFamily": "Poppins"
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
                                 }
                             }
                         }
@@ -84,12 +196,13 @@ export const layout = {
                         {
                             "cellName": "",
                             "cellType": "",
-                            "isVisible": true,
+                            "isVisible": false,
                             "attributes": {
                                 "style": {
                                     "color": "black",
                                     "fontSize": "0.7rem",
-                                    "fontFamily": "0.7rem"
+                                    "fontFamily": "0.7rem",
+                                    display: "none"
                                 }
                             }
                         },
@@ -109,6 +222,29 @@ export const layout = {
                             "cellName": "",
                             "cellType": "",
                             "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Level 4 - 1",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
                             "attributes": {
                                 "style": {
                                     "color": "black",
@@ -118,7 +254,391 @@ export const layout = {
                             }
                         }
                     ]
-                }
+                },
+                {
+                    "td": [
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": false,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem",
+                                    display: "none"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Load case 1",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "td": [
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": false,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem",
+                                    display: "none"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Load case 2",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "td": [
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": false,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem",
+                                    display: "none"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Level 4 - 2",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "td": [
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": false,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem",
+                                    display: "none"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Load case 4",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "td": [
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": false,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem",
+                                    display: "none"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Load case 5",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "td": [
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": false,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem",
+                                    display: "none"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "",
+                            "cellType": "",
+                            "isVisible": true,
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        },
+                        {
+                            "cellName": "Load case 6",
+                            "cellType": "",
+                            "attributes": {
+                                "style": {
+                                    "color": "black",
+                                    "fontSize": "0.7rem",
+                                    "fontFamily": "0.7rem"
+                                }
+                            }
+                        }
+                    ]
+                },
             ]
         },
         "attributes": {
